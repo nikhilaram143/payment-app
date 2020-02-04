@@ -3,7 +3,7 @@ const app = express();
 
 
 app.get('/', (req, res) => {
-res.send({bye: 'sai'})
+res.send({ram: 'sai'})
 });
 
 const PORT = process.env.PORT || 5000;
